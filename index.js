@@ -3,5 +3,6 @@ const app = "I don't do much."
 kittens = ['Milo', 'Otis', 'Garfield'];
 
 function destructivelyAppendKitten(kittens, name) {
-  return kittens.push(name);
+  kittens.push(name);
+  return kittens;
 }
